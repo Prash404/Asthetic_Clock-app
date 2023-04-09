@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="utf-8"?>
+<!-- code by Prashanjit Basu -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="hh:mm:ss"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:fontFamily="@font/digital_font"
+            android:textColor="@color/cyan"
+            android:textSize="135sp" />
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:format12Hour="a"
+            android:gravity="left"
+            android:text="AM"
+            android:textColor="@color/cyan"
+            android:textSize="70sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:format12Hour="MMM"
+            android:gravity="center"
+            android:text="JAN"
+            android:textColor="@color/cyan"
+            android:textSize="40sp" />
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:format12Hour=" dd , yyyy"
+            android:gravity="center"
+            android:text=" 1 , 2000"
+            android:fontFamily="@font/digital_font"
+            android:textColor="@color/cyan"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
