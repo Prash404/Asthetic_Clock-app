@@ -1,10 +1,10 @@
-# Asthetic clock app v1.1
+# Aesthetic clock app v1.1
 An app designed to be a companion to your work and studies.
 
 ## Functionality:
 No sleep till the app is on.
 
-Asthetic ambience.
+Aesthetic ambience.
 
 You can change the colour and the font from the res files.
 
