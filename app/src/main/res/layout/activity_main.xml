@@ -34,6 +34,7 @@
             android:format12Hour="a"
             android:gravity="left"
             android:text="AM"
+            android:textAllCaps="true"
             android:textColor="@color/cyan"
             android:textSize="70sp" />
 
@@ -53,6 +54,7 @@
             android:format12Hour="MMM"
             android:gravity="center"
             android:text="JAN"
+            android:textAllCaps="true"
             android:textColor="@color/cyan"
             android:textSize="40sp" />
 
